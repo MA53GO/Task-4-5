@@ -1,7 +1,7 @@
 nav{
     width: 100%;
     height: 80px;
-    background-color: rgb(139, 137, 137);
+    background-color: rgb(56, 54, 54);
 }
 
 .Logo{
@@ -12,6 +12,8 @@ nav{
 
 .Logo h3{
     font-size: 20px;
+    font-family: 'Bungee Shade', cursive;
+    font-weight: 600;
 }
 
 .nav-con ul{
@@ -23,7 +25,6 @@ nav{
     height: 30px;
     margin: 1%; 
     float: right; 
-   
 }
 
 .nav-con li{
@@ -54,19 +55,30 @@ nav{
 
 .header{
     width: 100%;
-    height: 500px;
-    background-color: lightgray;
+    height: 600px;
+    background-image: url("../assets/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .header h3{
     padding-left: 50px;
     padding-top: 100px;
     font: italic;
+    font-family: 'Oswald', sans-serif;
 }
 
 .header h1{
     padding-left: 50px;
     font: italic;
+    font-family: 'Anton', sans-serif;
 }
 
 .header p{
@@ -81,20 +93,21 @@ nav{
     margin: 1%;
     border-radius: 5px;
     background-color: lightgray;
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 5px;
-    border: 2px solid black;
-    
+    border: 2px solid white;
+    margin-left: 50px;
 }
 
 .Sign-up{
     width: 100%;
     height: 110px;
-    background-color: rgb(139, 136, 136);
+    background-color: rgb(56, 54, 54);
     text-align: center;
     color: white;
     padding-top: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .Sign-up h1{
@@ -107,12 +120,22 @@ nav{
     margin-top: 50px;
     margin-left: 100px;
     border-radius: 50%;
-    background-color: lightgrey;
+    background-image: url("../assets/hands.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .description{
     margin-top: 150px;
     margin-right: 100px;
+}
+
+.Get-Ready{
+    font-family: 'Oswald', sans-serif;
+}
+
+.More{
+    font-family: 'Anton', sans-serif;
 }
 
 .btn-two{
@@ -141,9 +164,50 @@ nav{
     margin-left: 80px;
     margin-bottom: 10px;
     border-radius: 50%;
-    background-color: lightgrey;
-    
+    background-image: url("../assets/old_eleven.png");
+    background-size: cover;
+    background-position: center;
 }
+
+.round-frame{
+    height: 150px;
+    width: 150px;
+    margin: 1%;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-image: url("../assets/old_mike.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.round-picture{
+    height: 150px;
+    width: 150px;
+    margin: 1%;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-image: url("../assets/old_dustin.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.round-profile{
+    height: 150px;
+    width: 150px;
+    margin: 1%;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-image: url("../assets/zombie.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 .col-3,h4{
     text-align: center;
@@ -185,9 +249,7 @@ nav{
 }
 
 .box{
-    width: 600px;
-    height: 300px;
-    background-color: lightgray;
+    
     margin-left: 40px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -218,22 +280,68 @@ nav{
 }
 
 .square{
-    width: 650px;
-    height: 400px;
-    background-color: lightgray;
     margin-top: 20px;
     margin-left: 400px;
     margin-bottom: 150px;
 }
 
 .footer{
-    height: 120px;
+    height: 150px;
     background-color: rgb(34, 34, 34);
     color: white;
     margin-top: 20px;
     text-align: center;
     padding-top: 40px;
     font-style: italic;
+}
+
+.youtube-icon{
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    float: left;
+    background-image: url("../assets/social-01.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.facebook-icon{
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    float: left;
+    background-image: url("../assets/social-02.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.twitter-icon{
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    float: left;
+    background-image: url("../assets/social-03.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.instagram-icon{
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    float: left;
+    background-image: url("../assets/social-04.svg");
+    background-size: cover;
+    background-position: center;
 
 }
+
+.icons{
+    margin-left: 550px;
+}
+
 
